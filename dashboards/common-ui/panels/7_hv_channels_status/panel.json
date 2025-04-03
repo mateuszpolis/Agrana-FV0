@@ -545,7 +545,7 @@
             {
               "type": "text",
               "name": "SA1 label",
-              "placement": { "top": 0, "left": 15, "width": 100, "height": 100 },
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": { "fixed": "SA1" },
                 "size": 10,
@@ -559,7 +559,7 @@
         {
           "type": "frame",
           "name": "SB1",
-          "placement": { "top": 0, "left": 30, "width": 5, "height": 40 },
+          "placement": { "top": 0, "left": 15, "width": 5, "height": 40 },
           "background": { "color": { "field": "SB1" } },
           "border": {
             "width": 1,
@@ -572,7 +572,7 @@
             {
               "type": "text",
               "name": "SB1 label",
-              "placement": { "top": 0, "left": 45, "width": 100, "height": 100 },
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": { "fixed": "SB1" },
                 "size": 10,
@@ -586,7 +586,7 @@
         {
           "type": "frame",
           "name": "SC1",
-          "placement": { "top": 0, "left": 60, "width": 5, "height": 40 },
+          "placement": { "top": 0, "left": 30, "width": 5, "height": 40 },
           "background": { "color": { "field": "SC1" } },
           "border": {
             "width": 1,
@@ -613,7 +613,7 @@
         {
           "type": "frame",
           "name": "SD1",
-          "placement": { "top": 0, "left": 75, "width": 5, "height": 40 },
+          "placement": { "top": 0, "left": 45, "width": 5, "height": 40 },
           "background": { "color": { "field": "SD1" } },
           "border": {
             "width": 1,
@@ -640,7 +640,7 @@
         {
           "type": "frame",
           "name": "SE1",
-          "placement": { "top": 0, "left": 90, "width": 5, "height": 40 },
+          "placement": { "top": 0, "left": 60, "width": 5, "height": 40 },
           "background": { "color": { "field": "SE1" } },
           "border": {
             "width": 1,
@@ -667,7 +667,7 @@
         {
           "type": "frame",
           "name": "SF1",
-          "placement": { "top": 0, "left": 105, "width": 5, "height": 40 },
+          "placement": { "top": 0, "left": 75, "width": 5, "height": 40 },
           "background": { "color": { "field": "SF1" } },
           "border": {
             "width": 1,
@@ -694,7 +694,7 @@
         {
           "type": "frame",
           "name": "SG1",
-          "placement": { "top": 0, "left": 120, "width": 5, "height": 40 },
+          "placement": { "top": 0, "left": 90, "width": 5, "height": 40 },
           "background": { "color": { "field": "SG1" } },
           "border": {
             "width": 1,
@@ -721,7 +721,7 @@
         {
           "type": "frame",
           "name": "SH1",
-          "placement": { "top": 0, "left": 135, "width": 5, "height": 40 },
+          "placement": { "top": 0, "left": 105, "width": 5, "height": 40 },
           "background": { "color": { "field": "SH1" } },
           "border": {
             "width": 1,
@@ -748,7 +748,7 @@
         {
           "type": "frame",
           "name": "SA2",
-          "placement": { "top": 0, "left": 150, "width": 5, "height": 40 },
+          "placement": { "top": 0, "left": 120, "width": 5, "height": 40 },
           "background": { "color": { "field": "SA2" } },
           "border": {
             "width": 1,
@@ -775,7 +775,7 @@
         {
           "type": "frame",
           "name": "SB2",
-          "placement": { "top": 0, "left": 165, "width": 5, "height": 40 },
+          "placement": { "top": 0, "left": 135, "width": 5, "height": 40 },
           "background": { "color": { "field": "SB2" } },
           "border": {
             "width": 1,
@@ -802,7 +802,7 @@
         {
           "type": "frame",
           "name": "SC2",
-          "placement": { "top": 0, "left": 180, "width": 5, "height": 40 },
+          "placement": { "top": 0, "left": 150, "width": 5, "height": 40 },
           "background": { "color": { "field": "SC2" } },
           "border": {
             "width": 1,
@@ -829,7 +829,7 @@
         {
           "type": "frame",
           "name": "SD2",
-          "placement": { "top": 0, "left": 195, "width": 5, "height": 40 },
+          "placement": { "top": 0, "left": 165, "width": 5, "height": 40 },
           "background": { "color": { "field": "SD2" } },
           "border": {
             "width": 1,
@@ -856,7 +856,7 @@
         {
           "type": "frame",
           "name": "SE2",
-          "placement": { "top": 0, "left": 210, "width": 5, "height": 40 },
+          "placement": { "top": 0, "left": 180, "width": 5, "height": 40 },
           "background": { "color": { "field": "SE2" } },
           "border": {
             "width": 1,
@@ -883,7 +883,7 @@
         {
           "type": "frame",
           "name": "SF2",
-          "placement": { "top": 0, "left": 225, "width": 5, "height": 40 },
+          "placement": { "top": 0, "left": 195, "width": 5, "height": 40 },
           "background": { "color": { "field": "SF2" } },
           "border": {
             "width": 1,
@@ -910,7 +910,7 @@
         {
           "type": "frame",
           "name": "SG2",
-          "placement": { "top": 0, "left": 240, "width": 5, "height": 40 },
+          "placement": { "top": 0, "left": 210, "width": 5, "height": 40 },
           "background": { "color": { "field": "SG2" } },
           "border": {
             "width": 1,
@@ -937,7 +937,7 @@
         {
           "type": "frame",
           "name": "SH2",
-          "placement": { "top": 0, "left": 255, "width": 5, "height": 40 },
+          "placement": { "top": 0, "left": 225, "width": 5, "height": 40 },
           "background": { "color": { "field": "SH2" } },
           "border": {
             "width": 1,
@@ -964,7 +964,7 @@
         {
           "type": "frame",
           "name": "SA3",
-          "placement": { "top": 0, "left": 270, "width": 5, "height": 40 },
+          "placement": { "top": 0, "left": 240, "width": 5, "height": 40 },
           "background": { "color": { "field": "SA3" } },
           "border": {
             "width": 1,
@@ -991,7 +991,7 @@
         {
           "type": "frame",
           "name": "SB3",
-          "placement": { "top": 0, "left": 285, "width": 5, "height": 40 },
+          "placement": { "top": 0, "left": 255, "width": 5, "height": 40 },
           "background": { "color": { "field": "SB3" } },
           "border": {
             "width": 1,
@@ -1018,7 +1018,7 @@
         {
           "type": "frame",
           "name": "SC3",
-          "placement": { "top": 0, "left": 300, "width": 5, "height": 40 },
+          "placement": { "top": 0, "left": 270, "width": 5, "height": 40 },
           "background": { "color": { "field": "SC3" } },
           "border": {
             "width": 1,
@@ -1045,7 +1045,7 @@
         {
           "type": "frame",
           "name": "SD3",
-          "placement": { "top": 0, "left": 315, "width": 5, "height": 40 },
+          "placement": { "top": 0, "left": 285, "width": 5, "height": 40 },
           "background": { "color": { "field": "SD3" } },
           "border": {
             "width": 1,
@@ -1072,7 +1072,7 @@
         {
           "type": "frame",
           "name": "SE3",
-          "placement": { "top": 0, "left": 330, "width": 5, "height": 40 },
+          "placement": { "top": 0, "left": 300, "width": 5, "height": 40 },
           "background": { "color": { "field": "SE3" } },
           "border": {
             "width": 1,
@@ -1099,7 +1099,7 @@
         {
           "type": "frame",
           "name": "SF3",
-          "placement": { "top": 0, "left": 345, "width": 5, "height": 40 },
+          "placement": { "top": 0, "left": 315, "width": 5, "height": 40 },
           "background": { "color": { "field": "SF3" } },
           "border": {
             "width": 1,
@@ -1126,7 +1126,7 @@
         {
           "type": "frame",
           "name": "SG3",
-          "placement": { "top": 0, "left": 360, "width": 5, "height": 40 },
+          "placement": { "top": 0, "left": 330, "width": 5, "height": 40 },
           "background": { "color": { "field": "SG3" } },
           "border": {
             "width": 1,
@@ -1153,7 +1153,7 @@
         {
           "type": "frame",
           "name": "SH3",
-          "placement": { "top": 0, "left": 375, "width": 5, "height": 40 },
+          "placement": { "top": 0, "left": 345, "width": 5, "height": 40 },
           "background": { "color": { "field": "SH3" } },
           "border": {
             "width": 1,
@@ -1803,7 +1803,7 @@
           "name": "SH52",
           "placement": {
             "top": 50,
-            "left": 105,
+            "left": 345,
             "width": 5,
             "height": 40,
             "rotation": 0
