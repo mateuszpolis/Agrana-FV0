@@ -547,7 +547,15 @@
               "name": "SA1 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SA1" },
+                "text": {
+                  "fixed": "SA1",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -574,7 +582,15 @@
               "name": "SB1 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SB1" },
+                "text": {
+                  "fixed": "SB1",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -601,7 +617,15 @@
               "name": "SC1 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SC1" },
+                "text": {
+                  "fixed": "SC1",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -628,7 +652,15 @@
               "name": "SD1 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SD1" },
+                "text": {
+                  "fixed": "SD1",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -655,7 +687,15 @@
               "name": "SE1 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SE1" },
+                "text": {
+                  "fixed": "SE1",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -682,7 +722,15 @@
               "name": "SF1 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SF1" },
+                "text": {
+                  "fixed": "SF1",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -709,7 +757,15 @@
               "name": "SG1 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SG1" },
+                "text": {
+                  "fixed": "SG1",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -736,7 +792,15 @@
               "name": "SH1 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SH1" },
+                "text": {
+                  "fixed": "SH1",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -763,7 +827,15 @@
               "name": "SA2 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SA2" },
+                "text": {
+                  "fixed": "SA2",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -790,7 +862,15 @@
               "name": "SB2 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SB2" },
+                "text": {
+                  "fixed": "SB2",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -817,7 +897,15 @@
               "name": "SC2 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SC2" },
+                "text": {
+                  "fixed": "SC2",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -844,7 +932,15 @@
               "name": "SD2 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SD2" },
+                "text": {
+                  "fixed": "SD2",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -871,7 +967,15 @@
               "name": "SE2 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SE2" },
+                "text": {
+                  "fixed": "SE2",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -898,7 +1002,15 @@
               "name": "SF2 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SF2" },
+                "text": {
+                  "fixed": "SF2",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -925,7 +1037,15 @@
               "name": "SG2 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SG2" },
+                "text": {
+                  "fixed": "SG2",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -952,7 +1072,15 @@
               "name": "SH2 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SH2" },
+                "text": {
+                  "fixed": "SH2",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -979,7 +1107,15 @@
               "name": "SA3 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SA3" },
+                "text": {
+                  "fixed": "SA3",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -1006,7 +1142,15 @@
               "name": "SB3 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SB3" },
+                "text": {
+                  "fixed": "SB3",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -1033,7 +1177,15 @@
               "name": "SC3 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SC3" },
+                "text": {
+                  "fixed": "SC3",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -1060,7 +1212,15 @@
               "name": "SD3 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SD3" },
+                "text": {
+                  "fixed": "SD3",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -1087,7 +1247,15 @@
               "name": "SE3 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SE3" },
+                "text": {
+                  "fixed": "SE3",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -1114,7 +1282,15 @@
               "name": "SF3 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SF3" },
+                "text": {
+                  "fixed": "SF3",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -1141,7 +1317,15 @@
               "name": "SG3 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SG3" },
+                "text": {
+                  "fixed": "SG3",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -1168,7 +1352,15 @@
               "name": "SH3 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SH3" },
+                "text": {
+                  "fixed": "SH3",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -1195,7 +1387,15 @@
               "name": "SA4 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SA4" },
+                "text": {
+                  "fixed": "SA4",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -1222,7 +1422,15 @@
               "name": "SB4 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SB4" },
+                "text": {
+                  "fixed": "SB4",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -1249,7 +1457,15 @@
               "name": "SC4 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SC4" },
+                "text": {
+                  "fixed": "SC4",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -1276,7 +1492,15 @@
               "name": "SD4 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SD4" },
+                "text": {
+                  "fixed": "SD4",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -1303,7 +1527,15 @@
               "name": "SE4 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SE4" },
+                "text": {
+                  "fixed": "SE4",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -1330,7 +1562,15 @@
               "name": "SF4 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SF4" },
+                "text": {
+                  "fixed": "SF4",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -1357,7 +1597,15 @@
               "name": "SG4 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SG4" },
+                "text": {
+                  "fixed": "SG4",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -1384,7 +1632,15 @@
               "name": "SH4 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SH4" },
+                "text": {
+                  "fixed": "SH4",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -1411,7 +1667,15 @@
               "name": "SA51 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SA51" },
+                "text": {
+                  "fixed": "SA51",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -1438,7 +1702,15 @@
               "name": "SB51 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SB51" },
+                "text": {
+                  "fixed": "SB51",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -1465,7 +1737,15 @@
               "name": "SC51 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SC51" },
+                "text": {
+                  "fixed": "SC51",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -1492,7 +1772,15 @@
               "name": "SD51 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SD51" },
+                "text": {
+                  "fixed": "SD51",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -1519,7 +1807,15 @@
               "name": "SE51 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SE51" },
+                "text": {
+                  "fixed": "SE51",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -1546,7 +1842,15 @@
               "name": "SF51 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SF51" },
+                "text": {
+                  "fixed": "SF51",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -1573,7 +1877,15 @@
               "name": "SG51 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SG51" },
+                "text": {
+                  "fixed": "SG51",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -1600,7 +1912,15 @@
               "name": "SH51 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SH51" },
+                "text": {
+                  "fixed": "SH51",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -1627,7 +1947,15 @@
               "name": "SA52 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SA52" },
+                "text": {
+                  "fixed": "SA52",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -1654,7 +1982,15 @@
               "name": "SB52 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SB52" },
+                "text": {
+                  "fixed": "SB52",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -1681,7 +2017,15 @@
               "name": "SC52 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SC52" },
+                "text": {
+                  "fixed": "SC52",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -1708,7 +2052,15 @@
               "name": "SD52 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SD52" },
+                "text": {
+                  "fixed": "SD52",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -1735,7 +2087,15 @@
               "name": "SE52 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SE52" },
+                "text": {
+                  "fixed": "SE52",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -1762,7 +2122,15 @@
               "name": "SF52 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SF52" },
+                "text": {
+                  "fixed": "SF52",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -1789,7 +2157,15 @@
               "name": "SG52 label",
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
-                "text": { "fixed": "SG52" },
+                "text": {
+                  "fixed": "SG52",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
+                },
                 "size": 10,
                 "align": "center",
                 "valign": "middle",
@@ -1832,7 +2208,13 @@
               },
               "config": {
                 "text": {
-                  "fixed": "SH52"
+                  "fixed": "SH52",
+                  "size": 4,
+                  "align": "left",
+                  "valign": "middle",
+                  "color": {
+                    "fixed": "text"
+                  }
                 },
                 "size": 10,
                 "align": "center",
