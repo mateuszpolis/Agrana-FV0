@@ -5,8 +5,8 @@
   "gridPos": {
     "x": 0,
     "y": 0,
-    "w": 24,
-    "h": 8
+    "h": 8,
+    "w": 24
   },
   "fieldConfig": {
     "defaults": {
@@ -37,22 +37,46 @@
               {
                 "type": "value",
                 "options": {
-                  "ON": { "color": "#00cc66" },
-                  "READY": { "color": "#00cc66" },
+                  "ON": {
+                    "color": "#00cc66"
+                  },
+                  "READY": {
+                    "color": "#00cc66"
+                  },
                   "FORCED_OFF": {
                     "color": "#cccccc",
                     "icon": "img/icons/fa/times-circle.svg"
                   },
-                  "OFF": { "color": "#cccccc" },
-                  "INTERMEDIATE": { "color": "#cccccc" },
-                  "RAMPING_UP": { "color": "#0099ff" },
-                  "TURNING_OFF": { "color": "#0099ff" },
-                  "RAMPING_DOWN": { "color": "#0099ff" },
-                  "ERROR": { "color": "#ff0000" },
-                  "TRIPPED": { "color": "#ff0000" },
-                  "WARNING": { "color": "#ffff33" },
-                  "DEAD": { "color": "#666666" },
-                  "UNKNOWN": { "color": "#9933cc" }
+                  "OFF": {
+                    "color": "#cccccc"
+                  },
+                  "INTERMEDIATE": {
+                    "color": "#cccccc"
+                  },
+                  "RAMPING_UP": {
+                    "color": "#0099ff"
+                  },
+                  "TURNING_OFF": {
+                    "color": "#0099ff"
+                  },
+                  "RAMPING_DOWN": {
+                    "color": "#0099ff"
+                  },
+                  "ERROR": {
+                    "color": "#ff0000"
+                  },
+                  "TRIPPED": {
+                    "color": "#ff0000"
+                  },
+                  "WARNING": {
+                    "color": "#ffff33"
+                  },
+                  "DEAD": {
+                    "color": "#666666"
+                  },
+                  "UNKNOWN": {
+                    "color": "#9933cc"
+                  }
                 }
               }
             ]
@@ -64,487 +88,71 @@
   "pluginVersion": "11.5.2",
   "targets": [
     {
-      "refId": "SA1",
-      "target": "SA1",
+      "refId": "HV_CHANNELS",
+      "target": "HV_CHANNELS",
       "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SA1.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SB1",
-      "target": "SB1",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SB1.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SC1",
-      "target": "SC1",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SC1.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SD1",
-      "target": "SD1",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SD1.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SE1",
-      "target": "SE1",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SE1.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SF1",
-      "target": "SF1",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SF1.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SG1",
-      "target": "SG1",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SG1.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SH1",
-      "target": "SH1",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SH1.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SA2",
-      "target": "SA2",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SA2.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SB2",
-      "target": "SB2",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SB2.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SC2",
-      "target": "SC2",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SC2.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SD2",
-      "target": "SD2",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SD2.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SE2",
-      "target": "SE2",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SE2.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SF2",
-      "target": "SF2",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SF2.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SG2",
-      "target": "SG2",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SG2.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SH2",
-      "target": "SH2",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SH2.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SA3",
-      "target": "SA3",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SA3.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SB3",
-      "target": "SB3",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SB3.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SC3",
-      "target": "SC3",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SC3.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SD3",
-      "target": "SD3",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SD3.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SE3",
-      "target": "SE3",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SE3.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SF3",
-      "target": "SF3",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SF3.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SG3",
-      "target": "SG3",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SG3.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SH3",
-      "target": "SH3",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SH3.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SA4",
-      "target": "SA4",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SA4.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SB4",
-      "target": "SB4",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SB4.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SC4",
-      "target": "SC4",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SC4.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SD4",
-      "target": "SD4",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SD4.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SE4",
-      "target": "SE4",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SE4.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SF4",
-      "target": "SF4",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SF4.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SG4",
-      "target": "SG4",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SG4.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SH4",
-      "target": "SH4",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SH4.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SA51",
-      "target": "SA51",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SA51.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SB51",
-      "target": "SB51",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SB51.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SC51",
-      "target": "SC51",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SC51.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SD51",
-      "target": "SD51",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SD51.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SE51",
-      "target": "SE51",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SE51.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SF51",
-      "target": "SF51",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SF51.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SG51",
-      "target": "SG51",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SG51.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SH51",
-      "target": "SH51",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SH51.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SA52",
-      "target": "SA52",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SA52.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SB52",
-      "target": "SB52",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SB52.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SC52",
-      "target": "SC52",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SC52.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SD52",
-      "target": "SD52",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SD52.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SE52",
-      "target": "SE52",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SE52.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SF52",
-      "target": "SF52",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SF52.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SG52",
-      "target": "SG52",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SG52.fsm.currentState\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "SH52",
-      "target": "SH52",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SH52.fsm.currentState\"}",
+      "payload": {
+        "element_name": {
+          "SA1": "fv0_dcs:FV0_HV|FV0/HV/SA1.fsm.currentState",
+          "SB1": "fv0_dcs:FV0_HV|FV0/HV/SB1.fsm.currentState",
+          "SC1": "fv0_dcs:FV0_HV|FV0/HV/SC1.fsm.currentState",
+          "SD1": "fv0_dcs:FV0_HV|FV0/HV/SD1.fsm.currentState",
+          "SE1": "fv0_dcs:FV0_HV|FV0/HV/SE1.fsm.currentState",
+          "SF1": "fv0_dcs:FV0_HV|FV0/HV/SF1.fsm.currentState",
+          "SG1": "fv0_dcs:FV0_HV|FV0/HV/SG1.fsm.currentState",
+          "SH1": "fv0_dcs:FV0_HV|FV0/HV/SH1.fsm.currentState",
+          "SA2": "fv0_dcs:FV0_HV|FV0/HV/SA2.fsm.currentState",
+          "SB2": "fv0_dcs:FV0_HV|FV0/HV/SB2.fsm.currentState",
+          "SC2": "fv0_dcs:FV0_HV|FV0/HV/SC2.fsm.currentState",
+          "SD2": "fv0_dcs:FV0_HV|FV0/HV/SD2.fsm.currentState",
+          "SE2": "fv0_dcs:FV0_HV|FV0/HV/SE2.fsm.currentState",
+          "SF2": "fv0_dcs:FV0_HV|FV0/HV/SF2.fsm.currentState",
+          "SG2": "fv0_dcs:FV0_HV|FV0/HV/SG2.fsm.currentState",
+          "SH2": "fv0_dcs:FV0_HV|FV0/HV/SH2.fsm.currentState",
+          "SA3": "fv0_dcs:FV0_HV|FV0/HV/SA3.fsm.currentState",
+          "SB3": "fv0_dcs:FV0_HV|FV0/HV/SB3.fsm.currentState",
+          "SC3": "fv0_dcs:FV0_HV|FV0/HV/SC3.fsm.currentState",
+          "SD3": "fv0_dcs:FV0_HV|FV0/HV/SD3.fsm.currentState",
+          "SE3": "fv0_dcs:FV0_HV|FV0/HV/SE3.fsm.currentState",
+          "SF3": "fv0_dcs:FV0_HV|FV0/HV/SF3.fsm.currentState",
+          "SG3": "fv0_dcs:FV0_HV|FV0/HV/SG3.fsm.currentState",
+          "SH3": "fv0_dcs:FV0_HV|FV0/HV/SH3.fsm.currentState",
+          "SA4": "fv0_dcs:FV0_HV|FV0/HV/SA4.fsm.currentState",
+          "SB4": "fv0_dcs:FV0_HV|FV0/HV/SB4.fsm.currentState",
+          "SC4": "fv0_dcs:FV0_HV|FV0/HV/SC4.fsm.currentState",
+          "SD4": "fv0_dcs:FV0_HV|FV0/HV/SD4.fsm.currentState",
+          "SE4": "fv0_dcs:FV0_HV|FV0/HV/SE4.fsm.currentState",
+          "SF4": "fv0_dcs:FV0_HV|FV0/HV/SF4.fsm.currentState",
+          "SG4": "fv0_dcs:FV0_HV|FV0/HV/SG4.fsm.currentState",
+          "SH4": "fv0_dcs:FV0_HV|FV0/HV/SH4.fsm.currentState",
+          "SA51": "fv0_dcs:FV0_HV|FV0/HV/SA51.fsm.currentState",
+          "SB51": "fv0_dcs:FV0_HV|FV0/HV/SB51.fsm.currentState",
+          "SC51": "fv0_dcs:FV0_HV|FV0/HV/SC51.fsm.currentState",
+          "SD51": "fv0_dcs:FV0_HV|FV0/HV/SD51.fsm.currentState",
+          "SE51": "fv0_dcs:FV0_HV|FV0/HV/SE51.fsm.currentState",
+          "SF51": "fv0_dcs:FV0_HV|FV0/HV/SF51.fsm.currentState",
+          "SG51": "fv0_dcs:FV0_HV|FV0/HV/SG51.fsm.currentState",
+          "SH51": "fv0_dcs:FV0_HV|FV0/HV/SH51.fsm.currentState",
+          "SA52": "fv0_dcs:FV0_HV|FV0/HV/SA52.fsm.currentState",
+          "SB52": "fv0_dcs:FV0_HV|FV0/HV/SB52.fsm.currentState",
+          "SC52": "fv0_dcs:FV0_HV|FV0/HV/SC52.fsm.currentState",
+          "SD52": "fv0_dcs:FV0_HV|FV0/HV/SD52.fsm.currentState",
+          "SE52": "fv0_dcs:FV0_HV|FV0/HV/SE52.fsm.currentState",
+          "SF52": "fv0_dcs:FV0_HV|FV0/HV/SF52.fsm.currentState",
+          "SG52": "fv0_dcs:FV0_HV|FV0/HV/SG52.fsm.currentState",
+          "SH52": "fv0_dcs:FV0_HV|FV0/HV/SH52.fsm.currentState"
+        }
+      },
       "datasource": {
         "type": "simpod-json-datasource",
         "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
       }
     }
   ],
-  "datasource": {},
+  "datasource": {
+    "type": "simpod-json-datasource",
+    "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+  },
   "options": {
     "inlineEditing": false,
     "showAdvancedTypes": false,
@@ -580,8 +188,17 @@
         {
           "type": "frame",
           "name": "SA1",
-          "placement": { "top": 0, "left": 0, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SA1" } },
+          "placement": {
+            "top": 0,
+            "left": 0,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SA1"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -593,7 +210,12 @@
             {
               "type": "text",
               "name": "SA1 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SA1"
@@ -604,15 +226,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SB1",
-          "placement": { "top": 0, "left": 15, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SB1" } },
+          "placement": {
+            "top": 0,
+            "left": 15,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SB1"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -624,7 +275,12 @@
             {
               "type": "text",
               "name": "SB1 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SB1"
@@ -635,15 +291,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SC1",
-          "placement": { "top": 0, "left": 30, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SC1" } },
+          "placement": {
+            "top": 0,
+            "left": 30,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SC1"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -655,7 +340,12 @@
             {
               "type": "text",
               "name": "SC1 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SC1"
@@ -666,15 +356,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SD1",
-          "placement": { "top": 0, "left": 45, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SD1" } },
+          "placement": {
+            "top": 0,
+            "left": 45,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SD1"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -686,7 +405,12 @@
             {
               "type": "text",
               "name": "SD1 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SD1"
@@ -697,15 +421,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SE1",
-          "placement": { "top": 0, "left": 60, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SE1" } },
+          "placement": {
+            "top": 0,
+            "left": 60,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SE1"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -717,7 +470,12 @@
             {
               "type": "text",
               "name": "SE1 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SE1"
@@ -728,15 +486,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SF1",
-          "placement": { "top": 0, "left": 75, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SF1" } },
+          "placement": {
+            "top": 0,
+            "left": 75,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SF1"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -748,7 +535,12 @@
             {
               "type": "text",
               "name": "SF1 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SF1"
@@ -759,15 +551,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SG1",
-          "placement": { "top": 0, "left": 90, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SG1" } },
+          "placement": {
+            "top": 0,
+            "left": 90,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SG1"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -779,7 +600,12 @@
             {
               "type": "text",
               "name": "SG1 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SG1"
@@ -790,15 +616,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SH1",
-          "placement": { "top": 0, "left": 105, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SH1" } },
+          "placement": {
+            "top": 0,
+            "left": 105,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SH1"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -810,7 +665,12 @@
             {
               "type": "text",
               "name": "SH1 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SH1"
@@ -821,15 +681,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SA2",
-          "placement": { "top": 0, "left": 120, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SA2" } },
+          "placement": {
+            "top": 0,
+            "left": 120,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SA2"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -841,7 +730,12 @@
             {
               "type": "text",
               "name": "SA2 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SA2"
@@ -852,15 +746,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SB2",
-          "placement": { "top": 0, "left": 135, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SB2" } },
+          "placement": {
+            "top": 0,
+            "left": 135,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SB2"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -872,7 +795,12 @@
             {
               "type": "text",
               "name": "SB2 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SB2"
@@ -883,15 +811,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SC2",
-          "placement": { "top": 0, "left": 150, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SC2" } },
+          "placement": {
+            "top": 0,
+            "left": 150,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SC2"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -903,7 +860,12 @@
             {
               "type": "text",
               "name": "SC2 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SC2"
@@ -914,15 +876,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SD2",
-          "placement": { "top": 0, "left": 165, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SD2" } },
+          "placement": {
+            "top": 0,
+            "left": 165,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SD2"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -934,7 +925,12 @@
             {
               "type": "text",
               "name": "SD2 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SD2"
@@ -945,15 +941,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SE2",
-          "placement": { "top": 0, "left": 180, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SE2" } },
+          "placement": {
+            "top": 0,
+            "left": 180,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SE2"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -965,7 +990,12 @@
             {
               "type": "text",
               "name": "SE2 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SE2"
@@ -976,15 +1006,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SF2",
-          "placement": { "top": 0, "left": 195, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SF2" } },
+          "placement": {
+            "top": 0,
+            "left": 195,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SF2"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -996,7 +1055,12 @@
             {
               "type": "text",
               "name": "SF2 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SF2"
@@ -1007,15 +1071,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SG2",
-          "placement": { "top": 0, "left": 210, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SG2" } },
+          "placement": {
+            "top": 0,
+            "left": 210,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SG2"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -1027,7 +1120,12 @@
             {
               "type": "text",
               "name": "SG2 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SG2"
@@ -1038,15 +1136,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SH2",
-          "placement": { "top": 0, "left": 225, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SH2" } },
+          "placement": {
+            "top": 0,
+            "left": 225,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SH2"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -1058,7 +1185,12 @@
             {
               "type": "text",
               "name": "SH2 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SH2"
@@ -1069,15 +1201,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SA3",
-          "placement": { "top": 0, "left": 240, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SA3" } },
+          "placement": {
+            "top": 0,
+            "left": 240,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SA3"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -1089,7 +1250,12 @@
             {
               "type": "text",
               "name": "SA3 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SA3"
@@ -1100,15 +1266,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SB3",
-          "placement": { "top": 0, "left": 255, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SB3" } },
+          "placement": {
+            "top": 0,
+            "left": 255,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SB3"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -1120,7 +1315,12 @@
             {
               "type": "text",
               "name": "SB3 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SB3"
@@ -1131,15 +1331,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SC3",
-          "placement": { "top": 0, "left": 270, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SC3" } },
+          "placement": {
+            "top": 0,
+            "left": 270,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SC3"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -1151,7 +1380,12 @@
             {
               "type": "text",
               "name": "SC3 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SC3"
@@ -1162,15 +1396,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SD3",
-          "placement": { "top": 0, "left": 285, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SD3" } },
+          "placement": {
+            "top": 0,
+            "left": 285,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SD3"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -1182,7 +1445,12 @@
             {
               "type": "text",
               "name": "SD3 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SD3"
@@ -1193,15 +1461,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SE3",
-          "placement": { "top": 0, "left": 300, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SE3" } },
+          "placement": {
+            "top": 0,
+            "left": 300,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SE3"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -1213,7 +1510,12 @@
             {
               "type": "text",
               "name": "SE3 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SE3"
@@ -1224,15 +1526,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SF3",
-          "placement": { "top": 0, "left": 315, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SF3" } },
+          "placement": {
+            "top": 0,
+            "left": 315,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SF3"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -1244,7 +1575,12 @@
             {
               "type": "text",
               "name": "SF3 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SF3"
@@ -1255,15 +1591,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SG3",
-          "placement": { "top": 0, "left": 330, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SG3" } },
+          "placement": {
+            "top": 0,
+            "left": 330,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SG3"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -1275,7 +1640,12 @@
             {
               "type": "text",
               "name": "SG3 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SG3"
@@ -1286,15 +1656,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SH3",
-          "placement": { "top": 0, "left": 345, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SH3" } },
+          "placement": {
+            "top": 0,
+            "left": 345,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SH3"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -1306,7 +1705,12 @@
             {
               "type": "text",
               "name": "SH3 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SH3"
@@ -1317,15 +1721,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SA4",
-          "placement": { "top": 55, "left": 0, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SA4" } },
+          "placement": {
+            "top": 55,
+            "left": 0,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SA4"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -1337,7 +1770,12 @@
             {
               "type": "text",
               "name": "SA4 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SA4"
@@ -1348,15 +1786,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SB4",
-          "placement": { "top": 55, "left": 15, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SB4" } },
+          "placement": {
+            "top": 55,
+            "left": 15,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SB4"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -1368,7 +1835,12 @@
             {
               "type": "text",
               "name": "SB4 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SB4"
@@ -1379,15 +1851,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SC4",
-          "placement": { "top": 55, "left": 30, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SC4" } },
+          "placement": {
+            "top": 55,
+            "left": 30,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SC4"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -1399,7 +1900,12 @@
             {
               "type": "text",
               "name": "SC4 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SC4"
@@ -1410,15 +1916,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SD4",
-          "placement": { "top": 55, "left": 45, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SD4" } },
+          "placement": {
+            "top": 55,
+            "left": 45,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SD4"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -1430,7 +1965,12 @@
             {
               "type": "text",
               "name": "SD4 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SD4"
@@ -1441,15 +1981,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SE4",
-          "placement": { "top": 55, "left": 60, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SE4" } },
+          "placement": {
+            "top": 55,
+            "left": 60,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SE4"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -1461,7 +2030,12 @@
             {
               "type": "text",
               "name": "SE4 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SE4"
@@ -1472,15 +2046,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SF4",
-          "placement": { "top": 55, "left": 75, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SF4" } },
+          "placement": {
+            "top": 55,
+            "left": 75,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SF4"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -1492,7 +2095,12 @@
             {
               "type": "text",
               "name": "SF4 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SF4"
@@ -1503,15 +2111,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SG4",
-          "placement": { "top": 55, "left": 90, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SG4" } },
+          "placement": {
+            "top": 55,
+            "left": 90,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SG4"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -1523,7 +2160,12 @@
             {
               "type": "text",
               "name": "SG4 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SG4"
@@ -1534,15 +2176,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SH4",
-          "placement": { "top": 55, "left": 105, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SH4" } },
+          "placement": {
+            "top": 55,
+            "left": 105,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SH4"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -1554,7 +2225,12 @@
             {
               "type": "text",
               "name": "SH4 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SH4"
@@ -1565,15 +2241,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SA51",
-          "placement": { "top": 55, "left": 120, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SA51" } },
+          "placement": {
+            "top": 55,
+            "left": 120,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SA51"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -1585,7 +2290,12 @@
             {
               "type": "text",
               "name": "SA51 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SA51"
@@ -1596,15 +2306,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SB51",
-          "placement": { "top": 55, "left": 135, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SB51" } },
+          "placement": {
+            "top": 55,
+            "left": 135,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SB51"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -1616,7 +2355,12 @@
             {
               "type": "text",
               "name": "SB51 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SB51"
@@ -1627,15 +2371,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SC51",
-          "placement": { "top": 55, "left": 150, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SC51" } },
+          "placement": {
+            "top": 55,
+            "left": 150,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SC51"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -1647,7 +2420,12 @@
             {
               "type": "text",
               "name": "SC51 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SC51"
@@ -1658,15 +2436,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SD51",
-          "placement": { "top": 55, "left": 165, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SD51" } },
+          "placement": {
+            "top": 55,
+            "left": 165,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SD51"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -1678,7 +2485,12 @@
             {
               "type": "text",
               "name": "SD51 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SD51"
@@ -1689,15 +2501,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SE51",
-          "placement": { "top": 55, "left": 180, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SE51" } },
+          "placement": {
+            "top": 55,
+            "left": 180,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SE51"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -1709,7 +2550,12 @@
             {
               "type": "text",
               "name": "SE51 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SE51"
@@ -1720,15 +2566,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SF51",
-          "placement": { "top": 55, "left": 195, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SF51" } },
+          "placement": {
+            "top": 55,
+            "left": 195,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SF51"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -1740,7 +2615,12 @@
             {
               "type": "text",
               "name": "SF51 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SF51"
@@ -1751,15 +2631,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SG51",
-          "placement": { "top": 55, "left": 210, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SG51" } },
+          "placement": {
+            "top": 55,
+            "left": 210,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SG51"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -1771,7 +2680,12 @@
             {
               "type": "text",
               "name": "SG51 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SG51"
@@ -1782,15 +2696,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SH51",
-          "placement": { "top": 55, "left": 225, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SH51" } },
+          "placement": {
+            "top": 55,
+            "left": 225,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SH51"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -1802,7 +2745,12 @@
             {
               "type": "text",
               "name": "SH51 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SH51"
@@ -1813,15 +2761,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SA52",
-          "placement": { "top": 55, "left": 240, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SA52" } },
+          "placement": {
+            "top": 55,
+            "left": 240,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SA52"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -1833,7 +2810,12 @@
             {
               "type": "text",
               "name": "SA52 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SA52"
@@ -1844,15 +2826,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SB52",
-          "placement": { "top": 55, "left": 255, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SB52" } },
+          "placement": {
+            "top": 55,
+            "left": 255,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SB52"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -1864,7 +2875,12 @@
             {
               "type": "text",
               "name": "SB52 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SB52"
@@ -1875,15 +2891,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SC52",
-          "placement": { "top": 55, "left": 270, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SC52" } },
+          "placement": {
+            "top": 55,
+            "left": 270,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SC52"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -1895,7 +2940,12 @@
             {
               "type": "text",
               "name": "SC52 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SC52"
@@ -1906,15 +2956,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SD52",
-          "placement": { "top": 55, "left": 285, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SD52" } },
+          "placement": {
+            "top": 55,
+            "left": 285,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SD52"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -1926,7 +3005,12 @@
             {
               "type": "text",
               "name": "SD52 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SD52"
@@ -1937,15 +3021,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SE52",
-          "placement": { "top": 55, "left": 300, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SE52" } },
+          "placement": {
+            "top": 55,
+            "left": 300,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SE52"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -1957,7 +3070,12 @@
             {
               "type": "text",
               "name": "SE52 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SE52"
@@ -1968,15 +3086,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SF52",
-          "placement": { "top": 55, "left": 315, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SF52" } },
+          "placement": {
+            "top": 55,
+            "left": 315,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SF52"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -1988,7 +3135,12 @@
             {
               "type": "text",
               "name": "SF52 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SF52"
@@ -1999,15 +3151,44 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
           "name": "SG52",
-          "placement": { "top": 55, "left": 330, "width": 5, "height": 40 },
-          "background": { "color": { "field": "SG52" } },
+          "placement": {
+            "top": 55,
+            "left": 330,
+            "width": 5,
+            "height": 40
+          },
+          "background": {
+            "color": {
+              "field": "SG52"
+            }
+          },
           "border": {
             "width": 1,
             "radius": 1,
@@ -2019,7 +3200,12 @@
             {
               "type": "text",
               "name": "SG52 label",
-              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100
+              },
               "config": {
                 "text": {
                   "fixed": "SG52"
@@ -2030,9 +3216,29 @@
                 "color": {
                   "fixed": "text"
                 }
-              }
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "color": {
+                  "fixed": "dark-green"
+                }
+              },
+              "oneClickMode": "off"
             }
-          ]
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
         },
         {
           "type": "frame",
