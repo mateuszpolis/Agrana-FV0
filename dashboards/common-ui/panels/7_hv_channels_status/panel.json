@@ -548,18 +548,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SA1",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SA1"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -583,18 +579,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SB1",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SB1"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -618,18 +610,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SC1",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SC1"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -653,18 +641,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SD1",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SD1"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -688,18 +672,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SE1",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SE1"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -723,18 +703,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SF1",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SF1"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -758,18 +734,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SG1",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SG1"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -793,18 +765,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SH1",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SH1"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -828,18 +796,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SA2",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SA2"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -863,18 +827,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SB2",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SB2"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -898,18 +858,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SC2",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SC2"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -933,18 +889,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SD2",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SD2"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -968,18 +920,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SE2",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SE2"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -1003,18 +951,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SF2",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SF2"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -1038,18 +982,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SG2",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SG2"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -1073,18 +1013,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SH2",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SH2"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -1108,18 +1044,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SA3",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SA3"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -1143,18 +1075,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SB3",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SB3"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -1178,18 +1106,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SC3",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SC3"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -1213,18 +1137,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SD3",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SD3"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -1248,18 +1168,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SE3",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SE3"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -1283,18 +1199,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SF3",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SF3"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -1318,18 +1230,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SG3",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SG3"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -1353,18 +1261,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SH3",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SH3"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -1388,18 +1292,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SA4",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SA4"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -1423,18 +1323,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SB4",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SB4"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -1458,18 +1354,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SC4",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SC4"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -1493,18 +1385,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SD4",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SD4"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -1528,18 +1416,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SE4",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SE4"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -1563,18 +1447,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SF4",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SF4"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -1598,18 +1478,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SG4",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SG4"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -1633,18 +1509,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SH4",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SH4"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -1668,18 +1540,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SA51",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SA51"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -1703,18 +1571,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SB51",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SB51"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -1738,18 +1602,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SC51",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SC51"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -1773,18 +1633,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SD51",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SD51"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -1808,18 +1664,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SE51",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SE51"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -1843,18 +1695,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SF51",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SF51"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -1878,18 +1726,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SG51",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SG51"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -1913,18 +1757,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SH51",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SH51"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -1948,18 +1788,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SA52",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SA52"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -1983,18 +1819,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SB52",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SB52"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -2018,18 +1850,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SC52",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SC52"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -2053,18 +1881,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SD52",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SD52"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -2088,18 +1912,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SE52",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SE52"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -2123,18 +1943,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SF52",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SF52"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -2158,18 +1974,14 @@
               "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
               "config": {
                 "text": {
-                  "fixed": "SG52",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SG52"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
-                "color": { "fixed": "#000000" }
+                "color": {
+                  "fixed": "text"
+                }
               }
             }
           ]
@@ -2208,19 +2020,13 @@
               },
               "config": {
                 "text": {
-                  "fixed": "SH52",
-                  "size": 4,
-                  "align": "left",
-                  "valign": "middle",
-                  "color": {
-                    "fixed": "text"
-                  }
+                  "fixed": "SH52"
                 },
-                "size": 10,
-                "align": "center",
+                "size": 4,
+                "align": "left",
                 "valign": "middle",
                 "color": {
-                  "fixed": "#000000"
+                  "fixed": "text"
                 }
               },
               "constraint": {
