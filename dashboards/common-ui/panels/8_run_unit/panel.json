@@ -6,7 +6,7 @@
     "x": 0,
     "y": 0,
     "h": 4,
-    "w": 6
+    "w": 3
   },
   "fieldConfig": {
     "defaults": {
@@ -15,12 +15,12 @@
         "mode": "absolute",
         "steps": [
           {
-            "value": null,
-            "color": "green"
+            "color": "green",
+            "value": null
           },
           {
-            "value": 80,
-            "color": "red"
+            "color": "red",
+            "value": 80
           }
         ]
       }
@@ -30,111 +30,81 @@
   "pluginVersion": "11.5.2",
   "targets": [
     {
-      "refId": "state",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      },
       "editorMode": "code",
       "payload": "{\"element_name\": \"fv0_dcs:aliDcsRun_1.state\"}",
+      "refId": "state",
+      "target": "state"
+    },
+    {
       "datasource": {
         "type": "simpod-json-datasource",
         "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
-    },
-    {
-      "refId": "runNo",
+      },
       "editorMode": "code",
       "payload": "{\"element_name\": \"fv0_dcs:aliDcsRun_1.runNo\"}",
-      "datasource": {
-        "type": "simpod-json-datasource",
-        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
+      "refId": "runNo",
+      "target": "runNo"
     },
     {
-      "refId": "runType",
-      "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:aliDcsRun_1.runType\"}",
       "datasource": {
         "type": "simpod-json-datasource",
         "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
-      }
+      },
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:aliDcsRun_1.runType\"}",
+      "refId": "runType",
+      "target": "runType"
     }
   ],
-  "datasource": {},
+  "datasource": {
+    "type": "simpod-json-datasource",
+    "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+  },
   "options": {
     "inlineEditing": false,
     "showAdvancedTypes": false,
     "panZoom": false,
     "infinitePan": false,
     "root": {
-      "type": "frame",
-      "name": "RUN UNIT ROOT",
-      "placement": {
-        "top": 0,
-        "left": 0,
-        "width": 100,
-        "height": 100
-      },
       "background": {
         "color": {
           "fixed": "transparent"
         }
       },
       "border": {
-        "width": 0,
         "color": {
           "fixed": "#999999"
-        }
+        },
+        "width": 0
       },
       "constraint": {
         "horizontal": "left",
         "vertical": "top"
       },
-      "oneClickMode": "off",
       "elements": [
         {
-          "type": "frame",
-          "name": "StateFrame",
-          "placement": {
-            "top": 5,
-            "left": 20,
-            "width": 90,
-            "height": 30,
-            "rotation": 0
-          },
           "background": {
             "color": {
               "fixed": "#00cc66"
             }
           },
           "border": {
-            "width": 1,
             "color": {
               "fixed": "#000000"
             },
-            "radius": 1
+            "radius": 1,
+            "width": 1
           },
-          "oneClickMode": "off",
+          "constraint": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
           "elements": [
             {
-              "type": "text",
-              "name": "State Text",
-              "placement": {
-                "top": 0,
-                "left": 0,
-                "width": 100,
-                "height": 100,
-                "rotation": 0
-              },
-              "config": {
-                "text": {
-                  "field": "state",
-                  "mode": "field"
-                },
-                "size": 24,
-                "align": "center",
-                "valign": "middle",
-                "color": {
-                  "fixed": "#000000"
-                }
-              },
               "background": {
                 "color": {
                   "fixed": "transparent"
@@ -143,75 +113,80 @@
               "border": {
                 "width": 0
               },
-              "constraint": {
-                "vertical": "top",
-                "horizontal": "left"
+              "config": {
+                "align": "center",
+                "color": {
+                  "fixed": "text"
+                },
+                "size": 24,
+                "text": {
+                  "field": "state",
+                  "mode": "field"
+                },
+                "valign": "middle"
               },
-              "oneClickMode": "off"
+              "constraint": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "name": "State Text",
+              "oneClickMode": "off",
+              "placement": {
+                "height": 100,
+                "left": 0,
+                "top": 0,
+                "width": 100
+              },
+              "type": "text"
             }
           ],
-          "constraint": {
-            "vertical": "top",
-            "horizontal": "left"
-          }
+          "name": "StateFrame",
+          "oneClickMode": "off",
+          "placement": {
+            "height": 30,
+            "left": 20,
+            "rotation": 0,
+            "top": 5,
+            "width": 90
+          },
+          "type": "frame"
         },
         {
-          "type": "text",
-          "name": "RunType Text",
-          "placement": {
-            "top": 40,
-            "left": 15,
-            "width": 90,
-            "height": 10,
-            "rotation": 0
+          "background": {
+            "color": {
+              "fixed": "transparent"
+            }
+          },
+          "border": {
+            "width": 0
           },
           "config": {
+            "align": "right",
+            "color": {
+              "fixed": "text"
+            },
+            "size": 14,
             "text": {
               "fixed": "run type:",
               "mode": "fixed"
             },
-            "size": 14,
-            "align": "left",
-            "valign": "middle",
-            "color": {
-              "fixed": "text"
-            }
-          },
-          "background": {
-            "color": {
-              "fixed": "transparent"
-            }
-          },
-          "border": {
-            "width": 0
+            "valign": "middle"
           },
           "constraint": {
-            "vertical": "top",
-            "horizontal": "left"
+            "horizontal": "left",
+            "vertical": "top"
           },
-          "oneClickMode": "off"
+          "name": "RunType Label",
+          "oneClickMode": "off",
+          "placement": {
+            "height": 10,
+            "left": 10,
+            "top": 40,
+            "width": 30
+          },
+          "type": "text"
         },
         {
-          "type": "text",
-          "name": "RunNo Text",
-          "placement": {
-            "top": 60,
-            "left": 15,
-            "width": 90,
-            "height": 10,
-            "rotation": 0
-          },
-          "config": {
-            "text": {
-              "fixed": "Run No:"
-            },
-            "size": 14,
-            "align": "left",
-            "valign": "middle",
-            "color": {
-              "fixed": "text"
-            }
-          },
           "background": {
             "color": {
               "fixed": "transparent"
@@ -220,13 +195,113 @@
           "border": {
             "width": 0
           },
-          "constraint": {
-            "vertical": "top",
-            "horizontal": "left"
+          "config": {
+            "align": "left",
+            "color": {
+              "fixed": "text"
+            },
+            "size": 14,
+            "text": {
+              "field": "runType",
+              "mode": "field"
+            },
+            "valign": "middle"
           },
-          "oneClickMode": "off"
+          "constraint": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "name": "RunType Value",
+          "oneClickMode": "off",
+          "placement": {
+            "height": 10,
+            "left": 42,
+            "top": 40,
+            "width": 60
+          },
+          "type": "text"
+        },
+        {
+          "background": {
+            "color": {
+              "fixed": "transparent"
+            }
+          },
+          "border": {
+            "width": 0
+          },
+          "config": {
+            "align": "right",
+            "color": {
+              "fixed": "text"
+            },
+            "size": 14,
+            "text": {
+              "fixed": "Run No:",
+              "mode": "fixed"
+            },
+            "valign": "middle"
+          },
+          "constraint": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "name": "RunNo Label",
+          "oneClickMode": "off",
+          "placement": {
+            "height": 10,
+            "left": 10,
+            "rotation": 0,
+            "top": 60,
+            "width": 30
+          },
+          "type": "text"
+        },
+        {
+          "background": {
+            "color": {
+              "fixed": "transparent"
+            }
+          },
+          "border": {
+            "width": 0
+          },
+          "config": {
+            "align": "left",
+            "color": {
+              "fixed": "text"
+            },
+            "size": 14,
+            "text": {
+              "field": "runNo",
+              "mode": "field"
+            },
+            "valign": "middle"
+          },
+          "constraint": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "name": "RunNo Value",
+          "oneClickMode": "off",
+          "placement": {
+            "height": 10,
+            "left": 42,
+            "top": 60,
+            "width": 60
+          },
+          "type": "text"
         }
-      ]
+      ],
+      "name": "RUN UNIT ROOT",
+      "oneClickMode": "off",
+      "placement": {
+        "height": 100,
+        "left": 0,
+        "top": 0,
+        "width": 100
+      },
+      "type": "frame"
     }
   }
 }
