@@ -1,0 +1,1543 @@
+{
+  "id": 7,
+  "type": "canvas",
+  "title": "HV CHANNELS STATUS",
+  "gridPos": {
+    "x": 0,
+    "y": 0,
+    "w": 24,
+    "h": 8
+  },
+  "fieldConfig": {
+    "defaults": {
+      "mappings": [],
+      "thresholds": {
+        "mode": "absolute",
+        "steps": [
+          {
+            "value": null,
+            "color": "#cccccc"
+          }
+        ]
+      },
+      "color": {
+        "mode": "thresholds"
+      }
+    },
+    "overrides": [
+      {
+        "matcher": {
+          "id": "byRegexp",
+          "options": ".*"
+        },
+        "properties": [
+          {
+            "id": "mappings",
+            "value": [
+              {
+                "type": "value",
+                "options": {
+                  "ON": { "color": "#00cc66" },
+                  "READY": { "color": "#00cc66" },
+                  "FORCED_OFF": {
+                    "color": "#cccccc",
+                    "icon": "img/icons/fa/times-circle.svg"
+                  },
+                  "OFF": { "color": "#cccccc" },
+                  "INTERMEDIATE": { "color": "#cccccc" },
+                  "RAMPING_UP": { "color": "#0099ff" },
+                  "TURNING_OFF": { "color": "#0099ff" },
+                  "RAMPING_DOWN": { "color": "#0099ff" },
+                  "ERROR": { "color": "#ff0000" },
+                  "TRIPPED": { "color": "#ff0000" },
+                  "WARNING": { "color": "#ffff33" },
+                  "DEAD": { "color": "#666666" },
+                  "UNKNOWN": { "color": "#9933cc" }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "pluginVersion": "11.5.2",
+  "targets": [
+    {
+      "refId": "SA1",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SA1.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SB1",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SB1.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SC1",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SC1.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SD1",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SD1.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SE1",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SE1.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SF1",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SF1.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SG1",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SG1.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SH1",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SH1.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SA2",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SA2.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SB2",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SB2.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SC2",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SC2.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SD2",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SD2.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SE2",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SE2.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SF2",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SF2.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SG2",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SG2.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SH2",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SH2.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SA3",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SA3.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SB3",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SB3.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SC3",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SC3.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SD3",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SD3.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SE3",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SE3.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SF3",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SF3.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SG3",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SG3.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SH3",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SH3.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SA4",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SA4.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SB4",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SB4.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SC4",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SC4.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SD4",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SD4.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SE4",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SE4.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SF4",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SF4.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SG4",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SG4.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SH4",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SH4.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SA51",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SA51.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SB51",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SB51.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SC51",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SC51.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SD51",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SD51.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SE51",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SE51.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SF51",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SF51.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SG51",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SG51.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SH51",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SH51.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SA52",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SA52.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SB52",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SB52.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SC52",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SC52.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SD52",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SD52.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SE52",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SE52.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SF52",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SF52.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SG52",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SG52.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "SH52",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_HV|FV0/HV/SH52.fsm.currentState\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    }
+  ],
+  "datasource": {},
+  "options": {
+    "inlineEditing": false,
+    "showAdvancedTypes": false,
+    "panZoom": false,
+    "infinitePan": false,
+    "root": {
+      "type": "frame",
+      "name": "HV CHANNELS STATUS ROOT",
+      "placement": {
+        "top": 0,
+        "left": 0,
+        "width": 100,
+        "height": 100
+      },
+      "background": {
+        "color": {
+          "fixed": "transparent"
+        }
+      },
+      "border": {
+        "color": {
+          "fixed": "#999999"
+        },
+        "width": 0,
+        "radius": 0
+      },
+      "constraint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "oneClickMode": "off",
+      "elements": [
+        {
+          "type": "frame",
+          "name": "SA1",
+          "placement": { "top": 0, "left": 0, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SA1" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SA1 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SA1" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SB1",
+          "placement": { "top": 0, "left": 4, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SB1" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SB1 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SB1" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SC1",
+          "placement": { "top": 0, "left": 8, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SC1" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SC1 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SC1" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SD1",
+          "placement": { "top": 0, "left": 12, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SD1" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SD1 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SD1" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SE1",
+          "placement": { "top": 0, "left": 16, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SE1" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SE1 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SE1" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SF1",
+          "placement": { "top": 0, "left": 20, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SF1" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SF1 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SF1" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SG1",
+          "placement": { "top": 0, "left": 24, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SG1" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SG1 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SG1" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SH1",
+          "placement": { "top": 0, "left": 28, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SH1" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SH1 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SH1" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SA2",
+          "placement": { "top": 0, "left": 32, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SA2" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SA2 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SA2" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SB2",
+          "placement": { "top": 0, "left": 36, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SB2" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SB2 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SB2" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SC2",
+          "placement": { "top": 0, "left": 40, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SC2" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SC2 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SC2" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SD2",
+          "placement": { "top": 0, "left": 44, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SD2" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SD2 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SD2" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SE2",
+          "placement": { "top": 0, "left": 48, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SE2" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SE2 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SE2" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SF2",
+          "placement": { "top": 0, "left": 52, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SF2" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SF2 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SF2" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SG2",
+          "placement": { "top": 0, "left": 56, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SG2" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SG2 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SG2" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SH2",
+          "placement": { "top": 0, "left": 60, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SH2" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SH2 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SH2" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SA3",
+          "placement": { "top": 0, "left": 64, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SA3" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SA3 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SA3" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SB3",
+          "placement": { "top": 0, "left": 68, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SB3" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SB3 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SB3" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SC3",
+          "placement": { "top": 0, "left": 72, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SC3" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SC3 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SC3" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SD3",
+          "placement": { "top": 0, "left": 76, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SD3" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SD3 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SD3" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SE3",
+          "placement": { "top": 0, "left": 80, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SE3" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SE3 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SE3" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SF3",
+          "placement": { "top": 0, "left": 84, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SF3" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SF3 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SF3" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SG3",
+          "placement": { "top": 0, "left": 88, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SG3" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SG3 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SG3" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SH3",
+          "placement": { "top": 0, "left": 92, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SH3" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SH3 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SH3" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SA4",
+          "placement": { "top": 50, "left": 0, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SA4" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SA4 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SA4" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SB4",
+          "placement": { "top": 50, "left": 4, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SB4" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SB4 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SB4" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SC4",
+          "placement": { "top": 50, "left": 8, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SC4" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SC4 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SC4" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SD4",
+          "placement": { "top": 50, "left": 12, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SD4" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SD4 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SD4" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SE4",
+          "placement": { "top": 50, "left": 16, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SE4" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SE4 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SE4" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SF4",
+          "placement": { "top": 50, "left": 20, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SF4" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SF4 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SF4" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SG4",
+          "placement": { "top": 50, "left": 24, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SG4" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SG4 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SG4" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SH4",
+          "placement": { "top": 50, "left": 28, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SH4" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SH4 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SH4" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SA51",
+          "placement": { "top": 50, "left": 32, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SA51" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SA51 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SA51" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SB51",
+          "placement": { "top": 50, "left": 36, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SB51" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SB51 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SB51" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SC51",
+          "placement": { "top": 50, "left": 40, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SC51" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SC51 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SC51" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SD51",
+          "placement": { "top": 50, "left": 44, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SD51" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SD51 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SD51" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SE51",
+          "placement": { "top": 50, "left": 48, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SE51" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SE51 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SE51" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SF51",
+          "placement": { "top": 50, "left": 52, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SF51" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SF51 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SF51" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SG51",
+          "placement": { "top": 50, "left": 56, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SG51" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SG51 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SG51" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SH51",
+          "placement": { "top": 50, "left": 60, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SH51" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SH51 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SH51" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SA52",
+          "placement": { "top": 50, "left": 64, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SA52" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SA52 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SA52" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SB52",
+          "placement": { "top": 50, "left": 68, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SB52" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SB52 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SB52" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SC52",
+          "placement": { "top": 50, "left": 72, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SC52" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SC52 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SC52" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SD52",
+          "placement": { "top": 50, "left": 76, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SD52" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SD52 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SD52" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SE52",
+          "placement": { "top": 50, "left": 80, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SE52" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SE52 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SE52" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SF52",
+          "placement": { "top": 50, "left": 84, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SF52" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SF52 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SF52" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SG52",
+          "placement": { "top": 50, "left": 88, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SG52" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SG52 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SG52" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "SH52",
+          "placement": { "top": 50, "left": 92, "width": 4, "height": 50 },
+          "background": { "color": { "field": "SH52" } },
+          "border": { "width": 0 },
+          "elements": [
+            {
+              "type": "text",
+              "name": "SH52 label",
+              "placement": { "top": 0, "left": 0, "width": 100, "height": 100 },
+              "config": {
+                "text": { "fixed": "SH52" },
+                "size": 10,
+                "align": "center",
+                "valign": "middle",
+                "color": { "fixed": "#000000" }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
