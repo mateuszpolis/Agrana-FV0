@@ -1,0 +1,232 @@
+{
+  "id": 8,
+  "type": "canvas",
+  "title": "RUN UNIT",
+  "gridPos": {
+    "x": 0,
+    "y": 0,
+    "h": 4,
+    "w": 6
+  },
+  "fieldConfig": {
+    "defaults": {
+      "mappings": [],
+      "thresholds": {
+        "mode": "absolute",
+        "steps": [
+          {
+            "value": null,
+            "color": "green"
+          },
+          {
+            "value": 80,
+            "color": "red"
+          }
+        ]
+      }
+    },
+    "overrides": []
+  },
+  "pluginVersion": "11.5.2",
+  "targets": [
+    {
+      "refId": "state",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:aliDcsRun_1.state\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "runNo",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:aliDcsRun_1.runNo\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    },
+    {
+      "refId": "runType",
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:aliDcsRun_1.runType\"}",
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      }
+    }
+  ],
+  "datasource": {},
+  "options": {
+    "inlineEditing": false,
+    "showAdvancedTypes": false,
+    "panZoom": false,
+    "infinitePan": false,
+    "root": {
+      "type": "frame",
+      "name": "RUN UNIT ROOT",
+      "placement": {
+        "top": 0,
+        "left": 0,
+        "width": 100,
+        "height": 100
+      },
+      "background": {
+        "color": {
+          "fixed": "transparent"
+        }
+      },
+      "border": {
+        "width": 0,
+        "color": {
+          "fixed": "#999999"
+        }
+      },
+      "constraint": {
+        "horizontal": "left",
+        "vertical": "top"
+      },
+      "oneClickMode": "off",
+      "elements": [
+        {
+          "type": "frame",
+          "name": "StateFrame",
+          "placement": {
+            "top": 5,
+            "left": 20,
+            "width": 90,
+            "height": 30,
+            "rotation": 0
+          },
+          "background": {
+            "color": {
+              "fixed": "#00cc66"
+            }
+          },
+          "border": {
+            "width": 1,
+            "color": {
+              "fixed": "#000000"
+            },
+            "radius": 1
+          },
+          "oneClickMode": "off",
+          "elements": [
+            {
+              "type": "text",
+              "name": "State Text",
+              "placement": {
+                "top": 0,
+                "left": 0,
+                "width": 100,
+                "height": 100,
+                "rotation": 0
+              },
+              "config": {
+                "text": {
+                  "field": "state",
+                  "mode": "field"
+                },
+                "size": 24,
+                "align": "center",
+                "valign": "middle",
+                "color": {
+                  "fixed": "#000000"
+                }
+              },
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "width": 0
+              },
+              "constraint": {
+                "vertical": "top",
+                "horizontal": "left"
+              },
+              "oneClickMode": "off"
+            }
+          ],
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          }
+        },
+        {
+          "type": "text",
+          "name": "RunType Text",
+          "placement": {
+            "top": 40,
+            "left": 15,
+            "width": 90,
+            "height": 10,
+            "rotation": 0
+          },
+          "config": {
+            "text": {
+              "fixed": "run type:",
+              "mode": "fixed"
+            },
+            "size": 14,
+            "align": "left",
+            "valign": "middle",
+            "color": {
+              "fixed": "text"
+            }
+          },
+          "background": {
+            "color": {
+              "fixed": "transparent"
+            }
+          },
+          "border": {
+            "width": 0
+          },
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
+        },
+        {
+          "type": "text",
+          "name": "RunNo Text",
+          "placement": {
+            "top": 60,
+            "left": 15,
+            "width": 90,
+            "height": 10,
+            "rotation": 0
+          },
+          "config": {
+            "text": {
+              "fixed": "Run No:"
+            },
+            "size": 14,
+            "align": "left",
+            "valign": "middle",
+            "color": {
+              "fixed": "text"
+            }
+          },
+          "background": {
+            "color": {
+              "fixed": "transparent"
+            }
+          },
+          "border": {
+            "width": 0
+          },
+          "constraint": {
+            "vertical": "top",
+            "horizontal": "left"
+          },
+          "oneClickMode": "off"
+        }
+      ]
+    }
+  }
+}
