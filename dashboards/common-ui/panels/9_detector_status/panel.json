@@ -4,10 +4,30 @@
   "title": "DETECTOR STATUS",
   "gridPos": {
     "x": 0,
-    "y": 0,
-    "h": 4,
+    "y": 4,
+    "h": 5,
     "w": 3
   },
+  "fieldConfig": {
+    "defaults": {
+      "mappings": [],
+      "thresholds": {
+        "mode": "absolute",
+        "steps": [
+          {
+            "value": null,
+            "color": "green"
+          },
+          {
+            "value": 80,
+            "color": "red"
+          }
+        ]
+      }
+    },
+    "overrides": []
+  },
+  "pluginVersion": "11.5.2",
   "targets": [
     {
       "datasource": {
@@ -15,9 +35,29 @@
         "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
       },
       "editorMode": "code",
-      "payload": "{\"element_name\": \"fv0_dcs:FV0_DCS|FV0_DCS.fsm.currentState\"}",
+      "payload": { "element_name": "fv0_dcs:FV0_DCS|FV0_DCS.fsm.currentState" },
       "refId": "state",
       "target": "state"
+    },
+    {
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      },
+      "editorMode": "code",
+      "payload": {
+        "element_name": {
+          "isSafe": "fv0_dcs:fv0EmergencyButton.Actual.isSafe",
+          "restoringSafe": "fv0_dcs:fv0EmergencyButton.Actual.restoringSafe",
+          "movingOff": "fv0_dcs:fv0EmergencyButton.Actual.movingOff",
+          "movingSuperSafe": "fv0_dcs:fv0EmergencyButton.Actual.movingSuperSafe",
+          "movingSafe": "fv0_dcs:fv0EmergencyButton.Actual.movingSafe",
+          "isOff": "fv0_dcs:fv0EmergencyButton.Actual.isOff",
+          "isSuperSafe": "fv0_dcs:fv0EmergencyButton.Actual.isSuperSafe"
+        }
+      },
+      "refId": "safetyStatus",
+      "target": "safetyStatus"
     }
   ],
   "datasource": {
@@ -25,6 +65,10 @@
     "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
   },
   "options": {
+    "inlineEditing": true,
+    "showAdvancedTypes": true,
+    "panZoom": false,
+    "infinitePan": false,
     "root": {
       "background": {
         "color": {
@@ -41,19 +85,58 @@
               "field": "state",
               "mode": "field",
               "mappings": [
-                { "match": "ERROR", "value": "#FF0000" },
-                { "match": "NOT_READY", "value": "#0000FF" },
-                { "match": "OFF", "value": "#0000FF" },
-                { "match": "STANDBY", "value": "#0000FF" },
-                { "match": "READY", "value": "#00FF00" },
-                { "match": "ON", "value": "#00FF00" },
-                { "match": "MIXED", "value": "#FFA500" },
-                { "match": "WARNING", "value": "#FFA500" },
-                { "match": "MOVING_READY", "value": "#FFFF00" },
-                { "match": "MOVING_OFF", "value": "#FFFF00" },
-                { "match": "MOVING_STANDBY", "value": "#FFFF00" },
-                { "match": "DEAD", "value": "#808080" },
-                { "match": "*", "value": "#FFFFFF" }
+                {
+                  "match": "ERROR",
+                  "value": "#FF0000"
+                },
+                {
+                  "match": "NOT_READY",
+                  "value": "#0000FF"
+                },
+                {
+                  "match": "OFF",
+                  "value": "#0000FF"
+                },
+                {
+                  "match": "STANDBY",
+                  "value": "#0000FF"
+                },
+                {
+                  "match": "READY",
+                  "value": "#00FF00"
+                },
+                {
+                  "match": "ON",
+                  "value": "#00FF00"
+                },
+                {
+                  "match": "MIXED",
+                  "value": "#FFA500"
+                },
+                {
+                  "match": "WARNING",
+                  "value": "#FFA500"
+                },
+                {
+                  "match": "MOVING_READY",
+                  "value": "#FFFF00"
+                },
+                {
+                  "match": "MOVING_OFF",
+                  "value": "#FFFF00"
+                },
+                {
+                  "match": "MOVING_STANDBY",
+                  "value": "#FFFF00"
+                },
+                {
+                  "match": "DEAD",
+                  "value": "#808080"
+                },
+                {
+                  "match": "*",
+                  "value": "#FFFFFF"
+                }
               ]
             }
           },
@@ -96,22 +179,206 @@
               },
               "name": "State Text",
               "placement": {
-                "height": 100,
-                "left": 0,
-                "top": 0,
-                "width": 100
+                "top": -1,
+                "height": 30,
+                "left": -1,
+                "width": 90,
+                "rotation": 0
               },
-              "type": "text"
+              "type": "text",
+              "oneClickMode": "off",
+              "connections": []
             }
           ],
           "name": "StateFrame",
           "placement": {
+            "top": 5,
             "height": 30,
             "left": 20,
-            "top": 5,
-            "width": 90
+            "width": 90,
+            "rotation": 0
           },
-          "type": "frame"
+          "type": "frame",
+          "oneClickMode": "off"
+        },
+        {
+          "background": {
+            "color": {
+              "field": "safetyStatus",
+              "mode": "mappings",
+              "mappings": [
+                {
+                  "options": {
+                    "pattern": "isSafe == true && isSuperSafe == false && movingSuperSafe == false && movingSafe == false && movingOff == false"
+                  },
+                  "result": {
+                    "color": "#00FF00"
+                  },
+                  "type": "regex"
+                },
+                {
+                  "options": {
+                    "pattern": "isSuperSafe == true || isOff == true"
+                  },
+                  "result": {
+                    "color": "#0000FF"
+                  },
+                  "type": "regex"
+                },
+                {
+                  "options": {
+                    "pattern": "movingSafe == true"
+                  },
+                  "result": {
+                    "color": "#FFFF00"
+                  },
+                  "type": "regex"
+                },
+                {
+                  "options": {
+                    "pattern": "movingSuperSafe == true || movingOff == true"
+                  },
+                  "result": {
+                    "color": "#FFFF00"
+                  },
+                  "type": "regex"
+                },
+                {
+                  "options": {
+                    "pattern": "restoringSafe == true"
+                  },
+                  "result": {
+                    "color": "#FFFF00"
+                  },
+                  "type": "regex"
+                },
+                {
+                  "options": {
+                    "pattern": ".*"
+                  },
+                  "result": {
+                    "color": "#FFA500"
+                  },
+                  "type": "regex"
+                }
+              ]
+            }
+          },
+          "border": {
+            "color": {
+              "fixed": "#000000"
+            },
+            "radius": 1,
+            "width": 1
+          },
+          "constraint": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "elements": [
+            {
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "width": 0
+              },
+              "config": {
+                "align": "center",
+                "color": {
+                  "fixed": "text"
+                },
+                "size": 14,
+                "text": {
+                  "field": "safetyStatus",
+                  "mode": "mappings",
+                  "mappings": [
+                    {
+                      "options": {
+                        "pattern": "isSafe == true && isSuperSafe == false && movingSuperSafe == false && movingSafe == false && movingOff == false"
+                      },
+                      "result": {
+                        "text": "SAFE"
+                      },
+                      "type": "regex"
+                    },
+                    {
+                      "options": {
+                        "pattern": "isSuperSafe == true || isOff == true"
+                      },
+                      "result": {
+                        "text": "SUPERSAFE"
+                      },
+                      "type": "regex"
+                    },
+                    {
+                      "options": {
+                        "pattern": "movingSafe == true"
+                      },
+                      "result": {
+                        "text": "MOVING SAFE"
+                      },
+                      "type": "regex"
+                    },
+                    {
+                      "options": {
+                        "pattern": "movingSuperSafe == true || movingOff == true"
+                      },
+                      "result": {
+                        "text": "MOVING SUPERSAFE"
+                      },
+                      "type": "regex"
+                    },
+                    {
+                      "options": {
+                        "pattern": "restoringSafe == true"
+                      },
+                      "result": {
+                        "text": "RESTORING SAFE"
+                      },
+                      "type": "regex"
+                    },
+                    {
+                      "options": {
+                        "pattern": ".*"
+                      },
+                      "result": {
+                        "text": "NOT SAFE"
+                      },
+                      "type": "regex"
+                    }
+                  ]
+                },
+                "valign": "middle"
+              },
+              "constraint": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "name": "BeamSafety Text",
+              "placement": {
+                "top": -1,
+                "height": 30,
+                "left": -1,
+                "width": 90,
+                "rotation": 0
+              },
+              "type": "text",
+              "oneClickMode": "off"
+            }
+          ],
+          "name": "BeamSafetyFrame",
+          "placement": {
+            "top": 40,
+            "height": 30,
+            "left": 20,
+            "width": 90,
+            "rotation": 0
+          },
+          "type": "frame",
+          "oneClickMode": "off"
         }
       ],
       "name": "DETECTOR STATUS ROOT",
@@ -121,7 +388,12 @@
         "top": 0,
         "width": 100
       },
-      "type": "frame"
+      "type": "frame",
+      "constraint": {
+        "vertical": "top",
+        "horizontal": "left"
+      },
+      "oneClickMode": "off"
     }
   }
 }

@@ -1,1 +1,10 @@
+-- state
 fv0_dcs:FV0_DCS|FV0_DCS.fsm.currentState
+-- beamSafety
+fv0_dcs:fv0EmergencyButton.Actual.isSafe
+fv0_dcs:fv0EmergencyButton.Actual.restoringSafe
+fv0_dcs:fv0EmergencyButton.Actual.movingOff
+fv0_dcs:fv0EmergencyButton.Actual.movingSuperSafe
+fv0_dcs:fv0EmergencyButton.Actual.movingSafe
+fv0_dcs:fv0EmergencyButton.Actual.isOff
+fv0_dcs:fv0EmergencyButton.Actual.isSuperSafe
