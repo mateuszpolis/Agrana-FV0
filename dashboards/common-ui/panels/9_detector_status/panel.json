@@ -1,0 +1,127 @@
+{
+  "id": 9,
+  "type": "canvas",
+  "title": "DETECTOR STATUS",
+  "gridPos": {
+    "x": 0,
+    "y": 0,
+    "h": 4,
+    "w": 3
+  },
+  "targets": [
+    {
+      "datasource": {
+        "type": "simpod-json-datasource",
+        "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+      },
+      "editorMode": "code",
+      "payload": "{\"element_name\": \"fv0_dcs:FV0_DCS|FV0_DCS.fsm.currentState\"}",
+      "refId": "state",
+      "target": "state"
+    }
+  ],
+  "datasource": {
+    "type": "simpod-json-datasource",
+    "uid": "b1b35b0c-dbc1-44f9-a944-bedc6a308627"
+  },
+  "options": {
+    "root": {
+      "background": {
+        "color": {
+          "fixed": "transparent"
+        }
+      },
+      "border": {
+        "width": 0
+      },
+      "elements": [
+        {
+          "background": {
+            "color": {
+              "field": "state",
+              "mode": "field",
+              "mappings": [
+                { "match": "ERROR", "value": "#FF0000" },
+                { "match": "NOT_READY", "value": "#0000FF" },
+                { "match": "OFF", "value": "#0000FF" },
+                { "match": "STANDBY", "value": "#0000FF" },
+                { "match": "READY", "value": "#00FF00" },
+                { "match": "ON", "value": "#00FF00" },
+                { "match": "MIXED", "value": "#FFA500" },
+                { "match": "WARNING", "value": "#FFA500" },
+                { "match": "MOVING_READY", "value": "#FFFF00" },
+                { "match": "MOVING_OFF", "value": "#FFFF00" },
+                { "match": "MOVING_STANDBY", "value": "#FFFF00" },
+                { "match": "DEAD", "value": "#808080" },
+                { "match": "*", "value": "#FFFFFF" }
+              ]
+            }
+          },
+          "border": {
+            "color": {
+              "fixed": "#000000"
+            },
+            "radius": 1,
+            "width": 1
+          },
+          "constraint": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "elements": [
+            {
+              "background": {
+                "color": {
+                  "fixed": "transparent"
+                }
+              },
+              "border": {
+                "width": 0
+              },
+              "config": {
+                "align": "center",
+                "color": {
+                  "fixed": "text"
+                },
+                "size": 24,
+                "text": {
+                  "field": "state",
+                  "mode": "field"
+                },
+                "valign": "middle"
+              },
+              "constraint": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "name": "State Text",
+              "placement": {
+                "height": 100,
+                "left": 0,
+                "top": 0,
+                "width": 100
+              },
+              "type": "text"
+            }
+          ],
+          "name": "StateFrame",
+          "placement": {
+            "height": 30,
+            "left": 20,
+            "top": 5,
+            "width": 90
+          },
+          "type": "frame"
+        }
+      ],
+      "name": "DETECTOR STATUS ROOT",
+      "placement": {
+        "height": 100,
+        "left": 0,
+        "top": 0,
+        "width": 100
+      },
+      "type": "frame"
+    }
+  }
+}
